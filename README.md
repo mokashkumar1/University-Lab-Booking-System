@@ -54,7 +54,7 @@ node tests/ui/interactions.mjs
 
 The SQL test executes the exact application schema in isolated PostgreSQL (PGlite) with `btree_gist`. The UI harness uses fixtures only under `tests/ui`, with mocked actions. It does not add an authentication bypass to the application. Browser results and screenshots are in `docs/evidence/ui`.
 
-See `docs/database-verification.md` and `docs/implementation-status.md` for measured checks. Hosted authentication, transactional behavior, simultaneous competing reservations, and the browser request → approval → issue → return flow have been verified against the connected Supabase project. Evidence is recorded in `docs/evidence`.
+See `docs/database-verification.md`, `docs/DATABASE.md`, `docs/IMPLEMENTATION_STATUS.md` and `docs/AUDIT_REPORT.md` for measured checks and their limitations. Hosted authentication, transactional behavior, simultaneous competing reservations, and the browser request → approval → issue → return flow have been verified against the connected Supabase project. Evidence is recorded in `docs/evidence`.
 
 ## Deployment
 
@@ -63,3 +63,12 @@ The local project is linked to Vercel `mokashs-projects/university-lab-booking-s
 The connected Supabase database is provisioned and encrypted Production environment variables are configured. Missing configuration produces an explicit connection-required state; the interface never substitutes pretend authentication.
 
 Images use licensed Pexels and Unsplash source photographs with responsive sizing and fallback placeholders. Replace resource image URLs with your university's photographs through resource management. The default images are illustrative, not photographs of a specific seeded university lab.
+
+## Project handoff documentation
+
+The `docs/` directory is the maintained handoff source for the project:
+
+- `PROJECT_CONTEXT.md` and `PROJECT_STRUCTURE.md` explain the product and codebase.
+- `FEATURES.md`, `IMPLEMENTATION_STATUS.md` and `AUDIT_REPORT.md` distinguish verified implementation from omissions and operational gaps.
+- `DATABASE.md`, `AUTHENTICATION.md`, `API.md`, `UI_FEATURE_AUDIT.md`, `SECURITY_AUDIT.md` and `TESTING.md` contain domain audits and evidence limits.
+- `TODO.md`, `AI_CONTEXT.md`, `AI_TASK_QUEUE.md`, `DECISIONS.md`, `KNOWN_ISSUES.md` and `CHANGELOG.md` are required updates for future work.
