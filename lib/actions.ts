@@ -10,6 +10,7 @@ import { findAlternatives } from './alternatives';
 import { toTimestamp } from './time';
 import { accountEmailSchema, accountNameSchema, accountPasswordSchema, validateRule, newUserSchema } from './validation';
 import { authCallbackUrl } from './site-url';
+import { sendBookingDecisionEmail } from './email';
 import type { ActionResult, BookingInput } from './types';
 const text = (form: FormData, key: string) => String(form.get(key) || '').trim();
 function fail(error: unknown): ActionResult { const message = error instanceof z.ZodError ? error.issues[0]?.message || 'Check the form values.' : error instanceof Error ? error.message : 'The request could not be completed. Please try again.'; return { success: false, message, error: message }; }
@@ -126,8 +127,15 @@ export async function mutationAction(_previous: ActionResult, form: FormData): P
         if (action === 'reject' && text(form, 'reason').length < 3) throw new Error('Provide a reason for rejecting this request.');
       } else assertCan(profile, 'issue');
       if (action === 'cancel') await rpc('cancel_booking', { p_actor: profile.id, p_booking_id: booking.id });
-      else if (action === 'approve' || action === 'reject') await rpc('decide_booking', { p_actor: profile.id, p_booking_id: booking.id, p_approve: action === 'approve', p_reason: text(form, 'reason') });
-      else {
+      else if (action === 'approve' || action === 'reject') {
+        await rpc('decide_booking', { p_actor: profile.id, p_booking_id: booking.id, p_approve: action === 'approve', p_reason: text(form, 'reason') });
+        try {
+          const { data: requester } = await adminClient().from('profiles').select('email, name').eq('id', booking.user_id).single();
+          if (requester?.email) await sendBookingDecisionEmail({ bookingId: booking.id, recipient: requester, approved: action === 'approve', reason: text(form, 'reason') });
+        } catch (error) {
+          console.error('Booking decision email was not delivered.', error);
+        }
+      } else {
         let resourceItems = booking.booking_items;
         if (action === 'return') {
           const { data: issues, error } = await adminClient().from('issue_returns').select('equipment_id,quantity,returned_quantity').eq('booking_id', booking.id).is('returned_at', null);
