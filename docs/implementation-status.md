@@ -14,3 +14,6 @@ Verified locally and against the hosted database:
 Evidence is recorded under docs/evidence. Fixture tests are isolated from production; live verification uses real Supabase Auth and database state. Seeded records are expressly demo data. Current resource photography is illustrative and can be replaced through management. Reports disclose their historical reporting window and utilization assumptions.
 
 Production environment variables are encrypted in the linked Vercel project. Local credentials, generated demo passwords, dependency/build folders and deployment tokens are excluded from version control.
+
+Production: https://university-lab-booking-system.vercel.app
+34 production browser checks pass across the four authenticated roles at mobile and desktop widths. Results and screenshots are in docs/evidence/production.

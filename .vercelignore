@@ -1,0 +1,6 @@
+mobile/
+DESKTOP/
+docs/evidence/
+node_modules/
+.git/
+.env.local

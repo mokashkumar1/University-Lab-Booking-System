@@ -1,0 +1,237 @@
+{
+  "url": "https://university-lab-booking-system.vercel.app",
+  "checked": "2026-10-01T08:25:42.187Z",
+  "checks": [
+    {
+      "role": "Student",
+      "check": "Production demo access uses real authentication",
+      "passed": true
+    },
+    {
+      "role": "Student",
+      "route": "dashboard",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Student",
+      "route": "browse",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Student",
+      "route": "book",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Student",
+      "route": "bookings",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Student",
+      "route": "notifications",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Student",
+      "route": "dashboard",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Student",
+      "route": "browse",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Student",
+      "route": "book",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Student",
+      "route": "bookings",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Student",
+      "route": "notifications",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Lab Staff",
+      "check": "Production demo access uses real authentication",
+      "passed": true
+    },
+    {
+      "role": "Lab Staff",
+      "route": "approvals",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Lab Staff",
+      "route": "issue-return",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Lab Staff",
+      "route": "blocks",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Lab Staff",
+      "route": "approvals",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Lab Staff",
+      "route": "issue-return",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Lab Staff",
+      "route": "blocks",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Coordinator",
+      "check": "Production demo access uses real authentication",
+      "passed": true
+    },
+    {
+      "role": "Coordinator",
+      "route": "approvals",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Coordinator",
+      "route": "reports",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Coordinator",
+      "route": "rules",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Coordinator",
+      "route": "approvals",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Coordinator",
+      "route": "reports",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Coordinator",
+      "route": "rules",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Admin",
+      "check": "Production demo access uses real authentication",
+      "passed": true
+    },
+    {
+      "role": "Admin",
+      "route": "admin/users",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Admin",
+      "route": "admin/equipment",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Admin",
+      "route": "admin/categories",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Admin",
+      "route": "admin/audit",
+      "width": 390,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Admin",
+      "route": "admin/users",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Admin",
+      "route": "admin/equipment",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Admin",
+      "route": "admin/categories",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    },
+    {
+      "role": "Admin",
+      "route": "admin/audit",
+      "width": 1440,
+      "check": "Production workspace renders and fits viewport",
+      "passed": true
+    }
+  ],
+  "pageErrors": []
+}
