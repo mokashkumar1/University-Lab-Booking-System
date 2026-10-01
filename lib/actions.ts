@@ -115,12 +115,19 @@ export async function mutationAction(_previous: ActionResult, form: FormData): P
   try {
     const profile = await requireProfile();
     const action = text(form, 'action');
-    if (['approve', 'reject', 'cancel', 'issue', 'return'].includes(action)) {
+    if (['approve', 'reject', 'cancel', 'issue', 'return', 'set-priority'].includes(action)) {
       const { booking } = await authorizedBooking(z.string().uuid().parse(text(form, 'booking_id')));
       if (action === 'cancel') {
         if (booking.user_id !== profile.id && profile.role !== 'Admin') throw new Error('Only the requester or an administrator can cancel this booking.');
         if (!['Pending Approval', 'Approved', 'Reserved'].includes(booking.booking_status)) throw new Error('This booking cannot be cancelled in its current state.');
-      } else if (action === 'approve' || action === 'reject') {
+      } else if (action === 'approve' || action === 'reject' || action === 'set-priority') {
+        if (action === 'set-priority') {
+          assertCan(profile, 'highValue');
+          const priority = z.coerce.number().int().min(0).max(3).parse(form.get('priority'));
+          await rpc('set_booking_priority', { p_actor: profile.id, p_booking_id: booking.id, p_priority: priority });
+          revalidatePath('/approvals');
+          return { success: true, message: 'Booking priority updated.' };
+        }
         assertCan(profile, 'approve');
         const ids = booking.booking_items.map(i => i.equipment_id);
         if (ids.length) { const { data } = await adminClient().from('equipment').select('unit_value_high').in('id', ids); if (data?.some(e => e.unit_value_high) && !can(profile, 'highValue')) throw new Error('High-value equipment requires Coordinator or Admin approval.'); }
