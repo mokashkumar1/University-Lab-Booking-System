@@ -1,0 +1,269 @@
+{
+  "scope": "Isolated operational form fixtures, dialog accessibility and bounds only. No live mutations.",
+  "results": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "name": "issue confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "issue dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "issue confirmation closes without mutation",
+          "passed": true
+        },
+        {
+          "name": "return confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "return dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "return confirmation closes without mutation",
+          "passed": true
+        },
+        {
+          "name": "review confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "review dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "review confirmation closes without mutation",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "checks": [
+        {
+          "name": "issue confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "issue dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "issue confirmation closes without mutation",
+          "passed": true
+        },
+        {
+          "name": "return confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "return dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "return confirmation closes without mutation",
+          "passed": true
+        },
+        {
+          "name": "review confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "review dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "review confirmation closes without mutation",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "checks": [
+        {
+          "name": "issue confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "issue dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "issue confirmation closes without mutation",
+          "passed": true
+        },
+        {
+          "name": "return confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "return dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "return confirmation closes without mutation",
+          "passed": true
+        },
+        {
+          "name": "review confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "review dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "review confirmation closes without mutation",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "checks": [
+        {
+          "name": "issue confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "issue dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "issue confirmation closes without mutation",
+          "passed": true
+        },
+        {
+          "name": "return confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "return dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "return confirmation closes without mutation",
+          "passed": true
+        },
+        {
+          "name": "review confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "review dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "review confirmation closes without mutation",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "checks": [
+        {
+          "name": "issue confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "issue dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "issue confirmation closes without mutation",
+          "passed": true
+        },
+        {
+          "name": "return confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "return dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "return confirmation closes without mutation",
+          "passed": true
+        },
+        {
+          "name": "review confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "review dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "review confirmation closes without mutation",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "checks": [
+        {
+          "name": "issue confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "issue dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "issue confirmation closes without mutation",
+          "passed": true
+        },
+        {
+          "name": "return confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "return dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "return confirmation closes without mutation",
+          "passed": true
+        },
+        {
+          "name": "review confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "review dialog traps keyboard focus",
+          "passed": true
+        },
+        {
+          "name": "review confirmation closes without mutation",
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

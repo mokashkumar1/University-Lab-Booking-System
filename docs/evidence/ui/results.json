@@ -1,0 +1,3552 @@
+{
+  "scope": "Isolated UI fixtures. This does not verify live authentication or database behavior.",
+  "checked": "2026-10-01T08:21:56.204Z",
+  "results": [
+    {
+      "screen": "dashboard",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Faculty",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "browse",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 396
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "labs",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 396
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "equipment",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "equipmentdetails",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "details",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "book",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "bookings",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "past",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "cancelled",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "booking",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "calendar",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "notifications",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "profile",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "approvals",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "review",
+      "role": "Coordinator",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "issue",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "return",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "blocks",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "rules",
+      "role": "Coordinator",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "users",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 459
+          },
+          {
+            "tag": "A",
+            "class": "",
+            "right": 576
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "departments",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 459
+          },
+          {
+            "tag": "A",
+            "class": "",
+            "right": 576
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "categories",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "active",
+            "right": 459
+          },
+          {
+            "tag": "A",
+            "class": "",
+            "right": 576
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "audit",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 459
+          },
+          {
+            "tag": "A",
+            "class": "active",
+            "right": 576
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "adminlabs",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 459
+          },
+          {
+            "tag": "A",
+            "class": "",
+            "right": 576
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "adminequipment",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 459
+          },
+          {
+            "tag": "A",
+            "class": "",
+            "right": 576
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "reports",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "bookings",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "notifications",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "calendar",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "approvals",
+      "role": "Lab Staff",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "details": {
+        "width": 390,
+        "document": 390,
+        "body": 390,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Faculty",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "browse",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "labs",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "equipment",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "equipmentdetails",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "details",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "book",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "bookings",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "past",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "cancelled",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "booking",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "calendar",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "notifications",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "profile",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "approvals",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "review",
+      "role": "Coordinator",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "issue",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "return",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "blocks",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "rules",
+      "role": "Coordinator",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "users",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 459
+          },
+          {
+            "tag": "A",
+            "class": "",
+            "right": 576
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "departments",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 459
+          },
+          {
+            "tag": "A",
+            "class": "",
+            "right": 576
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "categories",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "active",
+            "right": 459
+          },
+          {
+            "tag": "A",
+            "class": "",
+            "right": 576
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "audit",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 459
+          },
+          {
+            "tag": "A",
+            "class": "active",
+            "right": 576
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "adminlabs",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 459
+          },
+          {
+            "tag": "A",
+            "class": "",
+            "right": 576
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "adminequipment",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 459
+          },
+          {
+            "tag": "A",
+            "class": "",
+            "right": 576
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "reports",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "bookings",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "notifications",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "calendar",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "approvals",
+      "role": "Lab Staff",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "overflow": false,
+      "details": {
+        "width": 430,
+        "document": 430,
+        "body": 430,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Faculty",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "browse",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "labs",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "equipment",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "equipmentdetails",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "details",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "book",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "bookings",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "past",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "cancelled",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "booking",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "calendar",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "notifications",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "profile",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "approvals",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "review",
+      "role": "Coordinator",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "issue",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "return",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "blocks",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "rules",
+      "role": "Coordinator",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "users",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 816
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "departments",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 816
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "categories",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 816
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "audit",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "active",
+            "right": 816
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "adminlabs",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 816
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "adminequipment",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": [
+          {
+            "tag": "A",
+            "class": "",
+            "right": 816
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "screen": "reports",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "bookings",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "notifications",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "calendar",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "approvals",
+      "role": "Lab Staff",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "details": {
+        "width": 768,
+        "document": 768,
+        "body": 768,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Faculty",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "browse",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "labs",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "equipment",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "equipmentdetails",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "details",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "book",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "bookings",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "past",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "cancelled",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "booking",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "calendar",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "notifications",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "profile",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "approvals",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "review",
+      "role": "Coordinator",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "issue",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "return",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "blocks",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "rules",
+      "role": "Coordinator",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "users",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "departments",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "categories",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "audit",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "adminlabs",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "adminequipment",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "reports",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "bookings",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "notifications",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "calendar",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "approvals",
+      "role": "Lab Staff",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflow": false,
+      "details": {
+        "width": 1366,
+        "document": 1366,
+        "body": 1366,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Faculty",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "browse",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "labs",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "equipment",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "equipmentdetails",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "details",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "book",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "bookings",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "past",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "cancelled",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "booking",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "calendar",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "notifications",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "profile",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "approvals",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "review",
+      "role": "Coordinator",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "issue",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "return",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "blocks",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "rules",
+      "role": "Coordinator",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "users",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "departments",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "categories",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "audit",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "adminlabs",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "adminequipment",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "reports",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "bookings",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "notifications",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "calendar",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "approvals",
+      "role": "Lab Staff",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "details": {
+        "width": 1440,
+        "document": 1440,
+        "body": 1440,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Faculty",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "browse",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "labs",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "equipment",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "equipmentdetails",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "details",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "book",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "bookings",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "past",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "cancelled",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "booking",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "calendar",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "notifications",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "profile",
+      "role": "Student",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "approvals",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "review",
+      "role": "Coordinator",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "issue",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "return",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "blocks",
+      "role": "Lab Staff",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "rules",
+      "role": "Coordinator",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "users",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "departments",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "categories",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "audit",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "adminlabs",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "adminequipment",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "reports",
+      "role": "Admin",
+      "extra": "",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "bookings",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "notifications",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "calendar",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "approvals",
+      "role": "Lab Staff",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    },
+    {
+      "screen": "dashboard",
+      "role": "Student",
+      "extra": "empty=true",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflow": false,
+      "details": {
+        "width": 1920,
+        "document": 1920,
+        "body": 1920,
+        "elements": []
+      },
+      "errors": []
+    }
+  ]
+}

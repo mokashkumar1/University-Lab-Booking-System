@@ -1,0 +1,36 @@
+{
+  "verified": "2026-10-01T08:21:25.169Z",
+  "scope": "Real local Next.js UI, real hosted Supabase Auth + database, persisted demonstration test booking",
+  "checks": [
+    {
+      "name": "Student submitted real lab+equipment request",
+      "passed": true,
+      "bookingId": "5877265b-b4af-4049-856a-00637d4146f6"
+    },
+    {
+      "name": "Conflicting request presents verified scored alternatives",
+      "passed": true
+    },
+    {
+      "name": "Authorized staff approves reservation",
+      "passed": true
+    },
+    {
+      "name": "Actual equipment issue records custody",
+      "passed": true
+    },
+    {
+      "name": "Actual equipment return closes booking",
+      "passed": true
+    },
+    {
+      "name": "Lifecycle notifications persisted for requester",
+      "passed": true
+    },
+    {
+      "name": "Lifecycle audit trail recorded",
+      "passed": true
+    }
+  ],
+  "pageErrors": []
+}

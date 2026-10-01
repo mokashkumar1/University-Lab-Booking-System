@@ -1,0 +1,205 @@
+{
+  "scope": "Isolated UI fixtures and mock actions. Database mutation and live authentication are not exercised.",
+  "results": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "name": "Date and time step opens and inputs usable",
+          "passed": true
+        },
+        {
+          "name": "Summary enables submission after explicit rules acceptance",
+          "passed": true
+        },
+        {
+          "name": "Server action error shown inside booking screen",
+          "passed": true
+        },
+        {
+          "name": "Cancellation confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "Escape closes accessible cancellation dialog",
+          "passed": true
+        },
+        {
+          "name": "Mobile staff menu exposes operational navigation",
+          "passed": true
+        },
+        {
+          "name": "Student denied approval workspace",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "checks": [
+        {
+          "name": "Date and time step opens and inputs usable",
+          "passed": true
+        },
+        {
+          "name": "Summary enables submission after explicit rules acceptance",
+          "passed": true
+        },
+        {
+          "name": "Server action error shown inside booking screen",
+          "passed": true
+        },
+        {
+          "name": "Cancellation confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "Escape closes accessible cancellation dialog",
+          "passed": true
+        },
+        {
+          "name": "Mobile staff menu exposes operational navigation",
+          "passed": true
+        },
+        {
+          "name": "Student denied approval workspace",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "checks": [
+        {
+          "name": "Date and time step opens and inputs usable",
+          "passed": true
+        },
+        {
+          "name": "Summary enables submission after explicit rules acceptance",
+          "passed": true
+        },
+        {
+          "name": "Server action error shown inside booking screen",
+          "passed": true
+        },
+        {
+          "name": "Cancellation confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "Escape closes accessible cancellation dialog",
+          "passed": true
+        },
+        {
+          "name": "Student denied approval workspace",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "checks": [
+        {
+          "name": "Date and time step opens and inputs usable",
+          "passed": true
+        },
+        {
+          "name": "Summary enables submission after explicit rules acceptance",
+          "passed": true
+        },
+        {
+          "name": "Server action error shown inside booking screen",
+          "passed": true
+        },
+        {
+          "name": "Cancellation confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "Escape closes accessible cancellation dialog",
+          "passed": true
+        },
+        {
+          "name": "Student denied approval workspace",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "checks": [
+        {
+          "name": "Date and time step opens and inputs usable",
+          "passed": true
+        },
+        {
+          "name": "Summary enables submission after explicit rules acceptance",
+          "passed": true
+        },
+        {
+          "name": "Server action error shown inside booking screen",
+          "passed": true
+        },
+        {
+          "name": "Cancellation confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "Escape closes accessible cancellation dialog",
+          "passed": true
+        },
+        {
+          "name": "Student denied approval workspace",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "checks": [
+        {
+          "name": "Date and time step opens and inputs usable",
+          "passed": true
+        },
+        {
+          "name": "Summary enables submission after explicit rules acceptance",
+          "passed": true
+        },
+        {
+          "name": "Server action error shown inside booking screen",
+          "passed": true
+        },
+        {
+          "name": "Cancellation confirmation fits viewport",
+          "passed": true
+        },
+        {
+          "name": "Escape closes accessible cancellation dialog",
+          "passed": true
+        },
+        {
+          "name": "Student denied approval workspace",
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

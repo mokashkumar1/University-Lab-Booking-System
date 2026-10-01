@@ -1,0 +1,5 @@
+'use client';
+import { useRef, useState } from 'react';
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { Button } from '@/components/ui/button';
+export function ConfirmSubmit({label,pending=false,danger=false,description}:{label:string;pending?:boolean;danger?:boolean;description:string}){const [open,setOpen]=useState(false);const button=useRef<HTMLButtonElement>(null);return <><button type="button" ref={button} className={`btn ${danger?'btn-danger':'btn-primary'}`} disabled={pending} onClick={()=>{if(button.current?.form?.reportValidity())setOpen(true)}}>{pending?'Saving…':label}</button><Dialog open={open} onOpenChange={setOpen}><DialogContent className="confirm-dialog"><DialogHeader><DialogTitle>{label}?</DialogTitle><DialogDescription>{description}</DialogDescription></DialogHeader><DialogFooter><Button type="button" variant="outline" onClick={()=>setOpen(false)}>Go back</Button><Button type="button" variant={danger?'destructive':'default'} onClick={()=>{setOpen(false);button.current?.form?.requestSubmit()}}>{label}</Button></DialogFooter></DialogContent></Dialog></>;}

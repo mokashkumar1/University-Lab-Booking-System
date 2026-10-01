@@ -1,0 +1,197 @@
+{
+  "scope": "Isolated fixture alternatives and mock conflict action; database alternative engine not verified by this UI test.",
+  "results": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "name": "Conflict shows full and reduced alternatives with real contribution fields",
+          "passed": true
+        },
+        {
+          "name": "Reduced quantities require explicit consent before submit",
+          "passed": true
+        },
+        {
+          "name": "Old conflict cleared while reviewing accepted alternative",
+          "passed": true
+        },
+        {
+          "name": "Changed quantity is visible in the review summary",
+          "passed": true
+        },
+        {
+          "name": "Explicit consent enables reduced request submission",
+          "passed": true
+        },
+        {
+          "name": "Maintenance slots disabled and no-slot guidance appears",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "checks": [
+        {
+          "name": "Conflict shows full and reduced alternatives with real contribution fields",
+          "passed": true
+        },
+        {
+          "name": "Reduced quantities require explicit consent before submit",
+          "passed": true
+        },
+        {
+          "name": "Old conflict cleared while reviewing accepted alternative",
+          "passed": true
+        },
+        {
+          "name": "Changed quantity is visible in the review summary",
+          "passed": true
+        },
+        {
+          "name": "Explicit consent enables reduced request submission",
+          "passed": true
+        },
+        {
+          "name": "Maintenance slots disabled and no-slot guidance appears",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "checks": [
+        {
+          "name": "Conflict shows full and reduced alternatives with real contribution fields",
+          "passed": true
+        },
+        {
+          "name": "Reduced quantities require explicit consent before submit",
+          "passed": true
+        },
+        {
+          "name": "Old conflict cleared while reviewing accepted alternative",
+          "passed": true
+        },
+        {
+          "name": "Changed quantity is visible in the review summary",
+          "passed": true
+        },
+        {
+          "name": "Explicit consent enables reduced request submission",
+          "passed": true
+        },
+        {
+          "name": "Maintenance slots disabled and no-slot guidance appears",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "checks": [
+        {
+          "name": "Conflict shows full and reduced alternatives with real contribution fields",
+          "passed": true
+        },
+        {
+          "name": "Reduced quantities require explicit consent before submit",
+          "passed": true
+        },
+        {
+          "name": "Old conflict cleared while reviewing accepted alternative",
+          "passed": true
+        },
+        {
+          "name": "Changed quantity is visible in the review summary",
+          "passed": true
+        },
+        {
+          "name": "Explicit consent enables reduced request submission",
+          "passed": true
+        },
+        {
+          "name": "Maintenance slots disabled and no-slot guidance appears",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "checks": [
+        {
+          "name": "Conflict shows full and reduced alternatives with real contribution fields",
+          "passed": true
+        },
+        {
+          "name": "Reduced quantities require explicit consent before submit",
+          "passed": true
+        },
+        {
+          "name": "Old conflict cleared while reviewing accepted alternative",
+          "passed": true
+        },
+        {
+          "name": "Changed quantity is visible in the review summary",
+          "passed": true
+        },
+        {
+          "name": "Explicit consent enables reduced request submission",
+          "passed": true
+        },
+        {
+          "name": "Maintenance slots disabled and no-slot guidance appears",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "checks": [
+        {
+          "name": "Conflict shows full and reduced alternatives with real contribution fields",
+          "passed": true
+        },
+        {
+          "name": "Reduced quantities require explicit consent before submit",
+          "passed": true
+        },
+        {
+          "name": "Old conflict cleared while reviewing accepted alternative",
+          "passed": true
+        },
+        {
+          "name": "Changed quantity is visible in the review summary",
+          "passed": true
+        },
+        {
+          "name": "Explicit consent enables reduced request submission",
+          "passed": true
+        },
+        {
+          "name": "Maintenance slots disabled and no-slot guidance appears",
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

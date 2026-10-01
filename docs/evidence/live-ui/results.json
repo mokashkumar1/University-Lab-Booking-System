@@ -1,0 +1,893 @@
+{
+  "scope": "Real local Next.js application, seeded Supabase Auth accounts and database reads. No booking, approval, issue, return or management mutations are performed by this script.",
+  "checked": "2026-10-01T08:07:16.276Z",
+  "results": [
+    {
+      "role": "Student",
+      "check": "Real Supabase password authentication",
+      "passed": true
+    },
+    {
+      "role": "Student",
+      "route": "dashboard",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Student",
+      "route": "browse",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Student",
+      "route": "labs",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Student",
+      "route": "equipment",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Student",
+      "route": "book",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Student",
+      "route": "bookings",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Student",
+      "route": "calendar",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Student",
+      "route": "notifications",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Student",
+      "route": "profile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Student",
+      "route": "dashboard",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 430
+    },
+    {
+      "role": "Student",
+      "route": "browse",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 430
+    },
+    {
+      "role": "Student",
+      "route": "labs",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 430
+    },
+    {
+      "role": "Student",
+      "route": "equipment",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 430
+    },
+    {
+      "role": "Student",
+      "route": "book",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 430
+    },
+    {
+      "role": "Student",
+      "route": "bookings",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 430
+    },
+    {
+      "role": "Student",
+      "route": "calendar",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 430
+    },
+    {
+      "role": "Student",
+      "route": "notifications",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 430
+    },
+    {
+      "role": "Student",
+      "route": "profile",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 430
+    },
+    {
+      "role": "Student",
+      "route": "dashboard",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 768
+    },
+    {
+      "role": "Student",
+      "route": "browse",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 768
+    },
+    {
+      "role": "Student",
+      "route": "labs",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 768
+    },
+    {
+      "role": "Student",
+      "route": "equipment",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 768
+    },
+    {
+      "role": "Student",
+      "route": "book",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 768
+    },
+    {
+      "role": "Student",
+      "route": "bookings",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 768
+    },
+    {
+      "role": "Student",
+      "route": "calendar",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 768
+    },
+    {
+      "role": "Student",
+      "route": "notifications",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 768
+    },
+    {
+      "role": "Student",
+      "route": "profile",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 768
+    },
+    {
+      "role": "Student",
+      "route": "dashboard",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1366
+    },
+    {
+      "role": "Student",
+      "route": "browse",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1366
+    },
+    {
+      "role": "Student",
+      "route": "labs",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1366
+    },
+    {
+      "role": "Student",
+      "route": "equipment",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1366
+    },
+    {
+      "role": "Student",
+      "route": "book",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1366
+    },
+    {
+      "role": "Student",
+      "route": "bookings",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1366
+    },
+    {
+      "role": "Student",
+      "route": "calendar",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1366
+    },
+    {
+      "role": "Student",
+      "route": "notifications",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1366
+    },
+    {
+      "role": "Student",
+      "route": "profile",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1366
+    },
+    {
+      "role": "Student",
+      "route": "dashboard",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Student",
+      "route": "browse",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Student",
+      "route": "labs",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Student",
+      "route": "equipment",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Student",
+      "route": "book",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Student",
+      "route": "bookings",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Student",
+      "route": "calendar",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Student",
+      "route": "notifications",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Student",
+      "route": "profile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Student",
+      "route": "dashboard",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1920
+    },
+    {
+      "role": "Student",
+      "route": "browse",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1920
+    },
+    {
+      "role": "Student",
+      "route": "labs",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1920
+    },
+    {
+      "role": "Student",
+      "route": "equipment",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1920
+    },
+    {
+      "role": "Student",
+      "route": "book",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1920
+    },
+    {
+      "role": "Student",
+      "route": "bookings",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1920
+    },
+    {
+      "role": "Student",
+      "route": "calendar",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1920
+    },
+    {
+      "role": "Student",
+      "route": "notifications",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1920
+    },
+    {
+      "role": "Student",
+      "route": "profile",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1920
+    },
+    {
+      "role": "Student",
+      "check": "Real student denied Admin workspace",
+      "passed": true,
+      "initialPassed": false,
+      "retested": true,
+      "retestReason": "Initial visibility assertion ran before the streamed server screen finished. Targeted retest waits for the permission heading to render.",
+      "retestedAt": "2026-10-01T08:09:17.433Z"
+    },
+    {
+      "role": "Lab Staff",
+      "check": "Real Supabase password authentication",
+      "passed": true
+    },
+    {
+      "role": "Lab Staff",
+      "route": "approvals",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Lab Staff",
+      "route": "issue-return",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Lab Staff",
+      "route": "blocks",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Lab Staff",
+      "route": "approvals",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Lab Staff",
+      "route": "issue-return",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Lab Staff",
+      "route": "blocks",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Coordinator",
+      "check": "Real Supabase password authentication",
+      "passed": true
+    },
+    {
+      "role": "Coordinator",
+      "route": "approvals",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Coordinator",
+      "route": "reports",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Coordinator",
+      "route": "rules",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Coordinator",
+      "route": "approvals",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Coordinator",
+      "route": "reports",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Coordinator",
+      "route": "rules",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Admin",
+      "check": "Real Supabase password authentication",
+      "passed": true
+    },
+    {
+      "role": "Admin",
+      "route": "admin/users",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Admin",
+      "route": "admin/departments",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Admin",
+      "route": "admin/labs",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Admin",
+      "route": "admin/equipment",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Admin",
+      "route": "admin/categories",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Admin",
+      "route": "admin/audit",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 390
+    },
+    {
+      "role": "Admin",
+      "route": "admin/users",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Admin",
+      "route": "admin/departments",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Admin",
+      "route": "admin/labs",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Admin",
+      "route": "admin/equipment",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Admin",
+      "route": "admin/categories",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    },
+    {
+      "role": "Admin",
+      "route": "admin/audit",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "check": "Authenticated screen rendered without document overflow or database setup failure",
+      "passed": true,
+      "documentWidth": 1440
+    }
+  ]
+}

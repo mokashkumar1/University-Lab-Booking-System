@@ -1,0 +1,79 @@
+{
+  "project": "Universitylab",
+  "projectRef": "ahewjncliytgfphaepbz",
+  "verifiedDate": "2026-10-01",
+  "localPostgres": {
+    "engine": "PGlite PostgreSQL with btree_gist",
+    "assertionsPassed": 45,
+    "script": "supabase/tests/sql-verification.mjs",
+    "scope": [
+      "schema syntax",
+      "half-open interval peak stock",
+      "exclusion conflicts",
+      "role and department authorization",
+      "high-value approval",
+      "repeat-safe issue and cumulative partial return",
+      "late damage",
+      "parent resource blocks",
+      "stock and capacity updates",
+      "Auth profile email consistency",
+      "strict rule values",
+      "RLS and RPC grants"
+    ]
+  },
+  "hostedPostgres": {
+    "assertionsPassed": 16,
+    "script": "supabase/tests/hosted-verification.mjs",
+    "fixtureCleanup": "All fixture mutations rolled back, including audit, notifications and late counters"
+  },
+  "hostedConcurrency": {
+    "script": "supabase/tests/concurrency-verification.mjs",
+    "labRequests": 10,
+    "labCommitted": 1,
+    "labRejectedWith23P01": 9,
+    "equipmentRequests": 2,
+    "equipmentStock": 10,
+    "quantityEachRequest": 8,
+    "equipmentCommitted": 1,
+    "equipmentRejectedInsufficientQuantity": 1,
+    "fixtureCleanup": "Dedicated random-ID test resources and generated bookings, items, audit and notifications removed after verification"
+  },
+  "hostedAuth": {
+    "script": "supabase/tests/auth-verification.mjs",
+    "rolesPassed": [
+      "Student",
+      "Lab Staff",
+      "Coordinator",
+      "Admin"
+    ],
+    "checks": [
+      "Password sign-in",
+      "Matching active authorized profile",
+      "Sign-out"
+    ]
+  },
+  "setup": {
+    "schemaApplied": true,
+    "schemaInitiallyEmpty": true,
+    "schemaDeploymentAtomic": true,
+    "realAuthUsersSeeded": 4,
+    "seedLabs": 5,
+    "seedEquipmentEntries": 20,
+    "seedHistoryDays": 60,
+    "seedHistoryIsDemoData": true
+  },
+  "limitations": [
+    "Database and Auth checks alone do not prove the deployed browser workflow",
+    "Passwords and private integration values are intentionally excluded from evidence"
+  ],
+  "hostedManagement": {
+    "script": "supabase/tests/management-verification.mjs",
+    "checksPassed": [
+      "Student profile creation denied",
+      "Admin creates profile for actual Auth user through service-role RPC",
+      "Auth email updated",
+      "Profile email synchronized through audited RPC"
+    ],
+    "fixtureCleanup": "Temporary Auth user, profile and audit removed"
+  }
+}
