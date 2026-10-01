@@ -27,11 +27,21 @@ export async function signUpAction(_previous: ActionResult, form: FormData): Pro
   try {
     const name = accountNameSchema.parse(text(form, 'name'));
     const email = accountEmailSchema.parse(text(form, 'email'));
+    const department_id = text(form, 'department_id') || null;
     const password = accountPasswordSchema.parse(text(form, 'password'));
     if (password !== text(form, 'confirm_password')) throw new Error('Passwords do not match.');
-    const { error } = await (await sessionClient()).auth.signUp({ email, password, options: { data: { name }, emailRedirectTo: authCallbackUrl('/dashboard') } });
+    
+    // Auto-confirm the user so they can log in immediately without requiring an email
+    const { error } = await adminClient().auth.admin.createUser({
+      email,
+      password,
+      email_confirm: true,
+      user_metadata: { name, department_id }
+    });
+    
     if (error) throw new Error('We could not start account creation. Please try again or contact your department.');
-    return { success: true, message: 'Check your email to verify your UniLab account. You can sign in after verification.' };
+    
+    return { success: true, message: 'Account created successfully! You can now sign in.' };
   } catch (error) { return fail(error); }
 }
 export async function requestPasswordResetAction(_previous: ActionResult, form: FormData): Promise<ActionResult> {

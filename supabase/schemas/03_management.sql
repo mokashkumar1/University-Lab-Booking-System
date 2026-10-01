@@ -43,11 +43,15 @@ grant select on auth.users to service_role;
 -- Auth owns email confirmation. This trigger creates a minimally privileged Student profile;
 -- authorization always reads `profiles.role`, never caller-controlled user metadata.
 create function public.handle_new_auth_user() returns trigger language plpgsql security definer set search_path=public,auth as $$
-declare profile_name text;
+declare profile_name text; dept_id uuid;
 begin
  profile_name:=coalesce(nullif(trim(new.raw_user_meta_data->>'name'),''),split_part(new.email,'@',1));
- insert into public.profiles(id,name,email,role,active)
- values(new.id,profile_name,new.email,'Student',true)
+ begin
+  dept_id:=(new.raw_user_meta_data->>'department_id')::uuid;
+ exception when others then dept_id:=null;
+ end;
+ insert into public.profiles(id,name,email,role,department_id,active)
+ values(new.id,profile_name,new.email,'Student',dept_id,true)
  on conflict (id) do nothing;
  return new;
 end $$;

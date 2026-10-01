@@ -38,6 +38,8 @@ export function calculateAnalytics(data: AppData, windowDays = 60) {
     monthly: [...monthly].map(([name, bookings]) => ({ name, bookings })), peakHours: [...peak].sort(([a], [b]) => a.localeCompare(b)).map(([name, bookings]) => ({ name: `${name}:00`, bookings })), departments: [...departments].map(([name, bookings]) => ({ name, bookings })),
     labUsage: utilization.map(lab => ({ name: lab.name, bookings: lab.bookings })).sort((a, b) => b.bookings - a.bookings), utilization, underusedLabs: utilization.filter(lab => lab.availableHours > 0).sort((a, b) => a.utilization - b.utilization), rejectionReasons: [...rejectionReasons].map(([name, bookings]) => ({ name, bookings })).sort((a, b) => b.bookings - a.bookings),
     equipmentUsage: equipment.map(e => ({ name: e.name, quantity: issues.filter(i => i.equipment_id === e.id).reduce((sum, i) => sum + i.quantity, 0) })).sort((a, b) => b.quantity - a.quantity),
+    demandForecast: utilization.filter(lab => lab.bookings > 0).sort((a, b) => b.bookings - a.bookings).slice(0, 3).map(lab => ({ name: lab.name, bookings: lab.bookings, signal: lab.utilization >= 60 ? 'High utilization' : 'Highest recent demand' })),
+    maintenanceRecommendations: equipment.filter(item => item.maintenance_status || item.condition === 'Damaged' || issues.some(issue => issue.equipment_id === item.id && issue.return_condition === 'Damaged')).map(item => ({ name: item.name, reason: item.maintenance_status ? 'Marked in maintenance' : item.condition === 'Damaged' ? 'Current condition is damaged' : 'Damage recorded in this reporting window' })),
   };
 }
 

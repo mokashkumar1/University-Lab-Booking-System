@@ -1,7 +1,20 @@
 import { getAppData } from '@/lib/dal';
 import { calculateAnalytics } from '@/lib/analytics';
-import { Admin, Approvals, Blocks, IssueReturn, Rules } from './operations';
-import { Dashboard, Browse, ResourceDetail, Bookings, BookingDetail, Calendar, Notifications, Profile, Book } from './student';
+const Admin = dynamic(() => import('./operations').then(mod => mod.Admin));
+const Approvals = dynamic(() => import('./operations').then(mod => mod.Approvals));
+const Blocks = dynamic(() => import('./operations').then(mod => mod.Blocks));
+const IssueReturn = dynamic(() => import('./operations').then(mod => mod.IssueReturn));
+const Rules = dynamic(() => import('./operations').then(mod => mod.Rules));
+
+const Dashboard = dynamic(() => import('./student').then(mod => mod.Dashboard));
+const Browse = dynamic(() => import('./student').then(mod => mod.Browse));
+const ResourceDetail = dynamic(() => import('./student').then(mod => mod.ResourceDetail));
+const Bookings = dynamic(() => import('./student').then(mod => mod.Bookings));
+const BookingDetail = dynamic(() => import('./student').then(mod => mod.BookingDetail));
+const Calendar = dynamic(() => import('./student').then(mod => mod.Calendar));
+const Notifications = dynamic(() => import('./student').then(mod => mod.Notifications));
+const Profile = dynamic(() => import('./student').then(mod => mod.Profile));
+const Book = dynamic(() => import('./student').then(mod => mod.Book));
 import { Data, PermissionDenied, Empty } from './common';
 import dynamic from 'next/dynamic';
 const Reports=dynamic(()=>import('./reports'));

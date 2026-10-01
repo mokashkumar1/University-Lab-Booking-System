@@ -27,3 +27,20 @@ export async function sendBookingDecisionEmail({ bookingId, recipient, approved,
   if (error) throw new Error(`Resend rejected the notification: ${error.message}`);
   return { sent: true as const, id: data?.id };
 }
+
+export async function sendAuthLink(email: string, actionLink: string, isSignup: boolean) {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    console.error('RESEND_API_KEY is not configured. Falling back to console logging for auth links:', actionLink);
+    return;
+  }
+  const resend = new Resend(apiKey);
+  const { error } = await resend.emails.send({
+    from: process.env.RESEND_FROM_EMAIL || 'UniLab <onboarding@resend.dev>',
+    to: [email],
+    subject: isSignup ? 'Confirm your UniLab account' : 'Reset your UniLab password',
+    html: `<main style="font-family:Arial,sans-serif;color:#10213f;line-height:1.6"><h1>UniLab Account</h1><p>Hi,</p><p>Please ${isSignup ? 'confirm your email address' : 'reset your password'} by clicking the link below:</p><p><a href="${escapeHtml(actionLink)}">${isSignup ? 'Confirm Email' : 'Reset Password'}</a></p><p>Thank you,<br/>UniLab</p></main>`,
+  });
+  if (error) throw new Error(`Resend rejected the auth email: ${error.message}`);
+}
+
