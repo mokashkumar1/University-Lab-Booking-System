@@ -13,9 +13,9 @@
 | Duplicate email handling | COMPLETE | Supabase Auth reports the attempted duplicate; error is returned as a safe action error. |
 | Invalid credentials | COMPLETE | A generic sign-in failure is shown, limiting account enumeration. |
 | Inactive profile | COMPLETE with UX caveat | DAL treats it as no profile and redirects to login. It does not explain that the account was disabled. |
-| Public signup | MISSING (intentional) | `supabase/config.toml` disables signup; no signup UI/action exists. |
-| Email verification | MISSING | Seed/Admin provisioning sets `email_confirm: true`; no verification journey exists. |
-| Password reset / forgot password | MISSING | No reset route or Auth recovery action exists. |
+| Public signup | IMPLEMENTED | `/signup` provisions a Student account through Supabase Auth and creates its profile with a database trigger. |
+| Email verification | IMPLEMENTED — provider confirmation required | The sign-up action sends the verification redirect through `/auth/callback`; enable Confirm email and register the production callback URL in Supabase Auth. |
+| Password reset / forgot password | IMPLEMENTED — provider confirmation required | `/reset-password` sends the Supabase recovery email and `/update-password` completes the authenticated recovery session. |
 | SSO / MFA | MISSING | Not in the approved plan. |
 
 ## End-to-end flow
@@ -42,5 +42,5 @@ Admin form → validation → Auth admin createUser → create_profile RPC
 
 ## Verification still required
 
-- Confirm production Supabase email/provider settings if signup or recovery is ever enabled.
+- Confirm Supabase Email provider delivery, Confirm email and the production callback URL before public rollout.
 - Test session expiry, cookie refresh after prolonged inactivity, disabled-account messaging and Admin email-change failure recovery against the deployed environment.

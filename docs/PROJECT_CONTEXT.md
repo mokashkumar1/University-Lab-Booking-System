@@ -53,7 +53,7 @@ See [AUDIT_REPORT.md](AUDIT_REPORT.md) for evidence limits, missing scope and cu
 
 ## Known limitations
 
-- Accounts are provisioned by an Admin or seed process. Public signup, email verification and password-reset flows are not implemented.
+- Students can self-register, verify their email and reset passwords through Supabase Auth. Admin and seed provisioning remain available for institutional roles.
 - No API route handlers exist; mutations use Server Actions.
 - The application has no rate-limit layer or institutional SSO integration.
 - Seeded records and images are demo material, not institutional data.

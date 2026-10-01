@@ -8,7 +8,7 @@ No known defect currently prevents the seeded demonstration workflow. Do not rec
 
 | Task | Reason | Related files | Dependencies | Status | Verification |
 | --- | --- | --- | --- | --- | --- |
-| Define account lifecycle | Signup/recovery/verification are intentionally absent; institution must choose provision-only or implement them. | `app/login`, `lib/actions`, Supabase Auth configuration | Product and security owner decision | OPEN | Approved flows, provider config, negative tests. |
+| Confirm hosted email provider | Sign-up and recovery are implemented; Supabase must enable Confirm email, configure delivery and allow the production callback URL. | Supabase Auth dashboard | Supabase project owner | OPEN | Receive a verification email and reset email on a controlled account. |
 | Add rate limiting and abuse protection | Login and sensitive mutation paths have no application-level limiter. | Auth/actions, deployment configuration | Platform choice | OPEN | Automated threshold tests and production monitoring. |
 | Establish incremental migration workflow + drift check | Bootstrap cannot update an existing schema and no migration CI exists. | `supabase/schemas`, scripts, CI | Supabase CLI/project access | OPEN | Generate/review migration, schema diff and rollback rehearsal. |
 | Confirm production operational settings | Auth providers, redirect URLs, Data API exposure, backups and monitoring live outside the repo. | Supabase/Vercel dashboards | Account owner access | OPEN | Signed checklist / screenshots without secrets. |

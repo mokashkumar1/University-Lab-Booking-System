@@ -4,7 +4,7 @@
 | --- | --- | --- |
 | `app/` | App Router routes, layouts, global styles and error/loading boundaries. Depends on `components/` and `lib/`. | Complete route shell. Change with responsive and route tests. |
 | `app/(app)/` | Protected workspace routes; each route delegates to `components/screens/route.tsx`. Depends on the authenticated layout. | Complete for declared route set. Keep authorization in the DAL/actions, not only these pages. |
-| `app/login/` | Email/password and enabled demo-role sign-in. | Working for seeded users; intentionally lacks signup/recovery. |
+| `app/login/` | Email/password and enabled demo-role sign-in. | Links to the implemented signup and recovery journeys. |
 | `app/setup/` | Configuration guidance shown when Supabase is unavailable. | Informational fallback only. |
 | `components/` | Shared shell, booking flow, browse workspace and form/confirmation components. | Core UI implementation. Preserve the responsive shell and accessible dialogs. |
 | `components/screens/` | Screen implementations grouped into student, operational, reports and common modules. `route.tsx` maps routes to them. | Complete for current pages; data shape is adapted in `route.tsx`. |

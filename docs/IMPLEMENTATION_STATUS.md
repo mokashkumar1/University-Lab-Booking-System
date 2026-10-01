@@ -23,8 +23,8 @@ Last audited: 2026-10-01. Statuses below distinguish verified implementation fro
 
 ## Intentionally not implemented
 
-- [ ] Public signup.
-- [ ] Email verification, password reset and recovery.
+- [x] Public signup with Student-role profile provisioning.
+- [x] Email verification redirect and password-reset/recovery UI.
 - [ ] SSO, MFA, mobile app, email/push delivery, calendar sync and per-unit asset serial tracking.
 
 ## Operational work missing

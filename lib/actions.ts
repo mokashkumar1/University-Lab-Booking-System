@@ -8,7 +8,8 @@ import { authorizedBooking, getAppData, requireProfile } from './dal';
 import { assertCan, can } from './permissions';
 import { findAlternatives } from './alternatives';
 import { toTimestamp } from './time';
-import { validateRule, newUserSchema } from './validation';
+import { accountEmailSchema, accountNameSchema, accountPasswordSchema, validateRule, newUserSchema } from './validation';
+import { authCallbackUrl } from './site-url';
 import type { ActionResult, BookingInput } from './types';
 const text = (form: FormData, key: string) => String(form.get(key) || '').trim();
 function fail(error: unknown): ActionResult { const message = error instanceof z.ZodError ? error.issues[0]?.message || 'Check the form values.' : error instanceof Error ? error.message : 'The request could not be completed. Please try again.'; return { success: false, message, error: message }; }
@@ -18,6 +19,37 @@ export async function signInAction(_previous: ActionResult, form: FormData): Pro
     const password = z.string().min(1, 'Enter your password.').parse(text(form, 'password'));
     const { error } = await (await sessionClient()).auth.signInWithPassword({ email, password });
     if (error) return fail(new Error('Sign-in failed. Check your email and password.'));
+  } catch (error) { return fail(error); }
+  redirect('/dashboard');
+}
+export async function signUpAction(_previous: ActionResult, form: FormData): Promise<ActionResult> {
+  try {
+    const name = accountNameSchema.parse(text(form, 'name'));
+    const email = accountEmailSchema.parse(text(form, 'email'));
+    const password = accountPasswordSchema.parse(text(form, 'password'));
+    if (password !== text(form, 'confirm_password')) throw new Error('Passwords do not match.');
+    const { error } = await (await sessionClient()).auth.signUp({ email, password, options: { data: { name }, emailRedirectTo: authCallbackUrl('/dashboard') } });
+    if (error) throw new Error('We could not start account creation. Please try again or contact your department.');
+    return { success: true, message: 'Check your email to verify your UniLab account. You can sign in after verification.' };
+  } catch (error) { return fail(error); }
+}
+export async function requestPasswordResetAction(_previous: ActionResult, form: FormData): Promise<ActionResult> {
+  try {
+    const email = accountEmailSchema.parse(text(form, 'email'));
+    const { error } = await (await sessionClient()).auth.resetPasswordForEmail(email, { redirectTo: authCallbackUrl('/update-password') });
+    if (error) throw new Error('We could not start password recovery. Please try again or contact your department.');
+    return { success: true, message: 'If that account exists, a password reset link is on its way.' };
+  } catch (error) { return fail(error); }
+}
+export async function updatePasswordAction(_previous: ActionResult, form: FormData): Promise<ActionResult> {
+  try {
+    const password = accountPasswordSchema.parse(text(form, 'password'));
+    if (password !== text(form, 'confirm_password')) throw new Error('Passwords do not match.');
+    const client = await sessionClient();
+    const { data: { user }, error: userError } = await client.auth.getUser();
+    if (userError || !user) throw new Error('Your recovery link is invalid or has expired. Request a new one.');
+    const { error } = await client.auth.updateUser({ password });
+    if (error) throw new Error('Your password could not be updated. Request a new recovery link.');
   } catch (error) { return fail(error); }
   redirect('/dashboard');
 }

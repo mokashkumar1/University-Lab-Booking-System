@@ -10,11 +10,14 @@ const q=async(s,p=[])=>pg.query(s,p);
 const ok=(v,message)=>{assert.ok(v,message);checks++;};
 const rejects=async(s,p,pattern)=>{try{await q(s,p);throw new Error('Expected rejection');}catch(e){ok(pattern.test(e.message),e.message);}};
 try {
- await pg.exec("create role anon; create role authenticated; create role service_role bypassrls; create schema auth; create table auth.users(id uuid primary key,email text);");
+ await pg.exec("create role anon; create role authenticated; create role service_role bypassrls; create schema auth; create table auth.users(id uuid primary key,email text not null,raw_user_meta_data jsonb not null default '{}'::jsonb);");
  for(const file of ['01_core.sql','02_workflows.sql','03_management.sql']) await pg.exec(readFileSync(`supabase/schemas/${file}`,'utf8'));
  const id=n=>`20000000-0000-4000-8000-${String(n).padStart(12,'0')}`;
  await q('insert into departments(id,name) values($1,$2)',[id(1),'Test Department']);
- for(const [n,role] of [[2,'Student'],[3,'Lab Staff'],[4,'Coordinator'],[5,'Admin']]){await q('insert into auth.users(id) values($1)',[id(n)]);await q('insert into profiles(id,name,email,role,department_id) values($1,$2,$3,$4,$5)',[id(n),role,`${n}@test.invalid`,role,id(1)]);}
+ for(const [n,role] of [[2,'Student'],[3,'Lab Staff'],[4,'Coordinator'],[5,'Admin']]){await q('insert into auth.users(id,email) values($1,$2)',[id(n),`${n}@test.invalid`]);await q('update profiles set name=$2,role=$3,department_id=$4 where id=$1',[id(n),role,role,id(1)]);}
+ await q('insert into auth.users(id,email,raw_user_meta_data) values($1,$2,$3)',[id(99),'new.student@test.invalid',JSON.stringify({name:'New Student'})]);
+ const selfProvisioned=(await q('select name,role,active from profiles where id=$1',[id(99)])).rows[0];
+ ok(selfProvisioned.name==='New Student'&&selfProvisioned.role==='Student'&&selfProvisioned.active===true,'Auth user trigger creates an active Student profile without trusting a role claim');
  await q("insert into labs(id,name,department_id,capacity,location) values($1,'Lab',$2,30,'Floor 1')",[id(10),id(1)]);
  await q("insert into equipment(id,name,category,total_quantity,lab_id) values($1,'Kits','Electronics',10,$2)",[id(11),id(10)]);
  const base=Date.now()+86400000;const time=h=>new Date(base+h*3600000).toISOString();

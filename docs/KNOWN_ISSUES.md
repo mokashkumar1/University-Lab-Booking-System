@@ -1,12 +1,12 @@
 # Known Issues
 
-## UL-001 — Account lifecycle is deliberately incomplete
+## UL-001 — Hosted email provider needs final confirmation
 
 - Severity: High for a general institutional launch; not blocking the controlled demo.
-- Description: There is no public signup, email verification, password reset, SSO or MFA.
+- Description: Signup, verification redirects and password reset are implemented, but email delivery and Confirm email must be confirmed in the hosted Supabase Email provider.
 - Reproduction: Open `/login`; only sign-in and configured demo-role entry are offered.
-- Expected: Institution chooses and implements its approved account lifecycle.
-- Actual: Admin/seed provisioning only.
+- Expected: A controlled account receives verification and recovery emails and follows the configured callback route.
+- Actual: The application and live profile trigger are verified; provider/dashboard confirmation remains.
 - Related files: `app/login`, `components/login-form.tsx`, `lib/actions.ts`, `supabase/config.toml`.
 - Possible cause: Deferred scope, not a runtime defect.
 - Status: OPEN.

@@ -6,8 +6,8 @@ Status is based on source inspection and the evidence cited below, not visual ex
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Email/password sign-in | COMPLETE | `login-form.tsx` | Supabase Auth + `profiles` | `signInAction` | `/login` | Hosted four-role Auth check 2026-10-01 | Invalid credential error is intentionally generic. |
 | Demo-role access | COMPLETE | Login role buttons | Server-side demo credentials | `demoSignInAction` | `/login` | Production evidence | Enabled only with `DEMO_MODE`. |
-| Public signup | MISSING | — | Auth supports it but local config disables signup | — | — | N/A | Intentional account-provisioning model. |
-| Email verification / reset | MISSING | — | No recovery implementation | — | — | N/A | Requires product/security decision before addition. |
+| Public signup | IMPLEMENTED | `/signup` | Supabase Auth sign-up with an automatic Student profile | — | — | `npm run test:auth-lifecycle` | Confirm Email provider settings before public rollout. |
+| Email verification / reset | IMPLEMENTED | `/auth/callback`, `/reset-password`, `/update-password` | Supabase verification and recovery callbacks | — | — | Build plus live profile-trigger verification | Confirm Email provider delivery and callback allow-list. |
 | Session refresh / logout | COMPLETE | `proxy.ts`, shell/profile forms | Supabase cookies | `signOutAction` | Protected layout | Hosted Auth check; production login checks | Session persistence after a long idle period remains untested. |
 | Role authorization | COMPLETE | DAL + actions + SQL functions | Active profile / roles | `assertCan`, RPC authorization | Role-aware navigation | Unit, SQL, live production denial evidence | UI hiding is not relied on. |
 | Labs and equipment browsing | COMPLETE | Student screens / browse workspace | `labs`, `equipment`, categories | `getAppData` | Desktop timeline + mobile cards | Fixture/live render checks | Search/filter coverage is UI-driven, not a dedicated query API. |

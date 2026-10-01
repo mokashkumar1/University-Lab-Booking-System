@@ -10,6 +10,8 @@
     "test": "vitest run && node supabase/tests/sql-verification.mjs",
     "seed": "tsx --env-file=.env.local scripts/seed.ts",
     "db:apply": "node --env-file=.env.local scripts/apply-schema.mjs",
+    "db:apply-auth-lifecycle": "node --env-file=.env.local scripts/apply-auth-lifecycle.mjs",
+    "test:auth-lifecycle": "node --env-file=.env.local supabase/tests/auth-lifecycle-verification.mjs",
     "test:ui": "node tests/ui/verify.mjs",
     "preview:ui": "vite --config tests/ui/vite.config.mts --host 127.0.0.1 --port 4178"
   },

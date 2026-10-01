@@ -16,7 +16,7 @@
 
 ## Tests not present or not evidenced
 
-- Public signup, email confirmation and password recovery (features are absent).
+- Hosted verification-email and recovery-email delivery (application routes and live profile provisioning are covered; provider delivery needs a controlled-account test).
 - Rate limiting, account lockout, session expiry/revocation and provider misconfiguration.
 - Automated accessibility/WCAG, screen-reader, contrast and reduced-motion testing.
 - Load, endurance, backup/restore, failure injection, observability and disaster recovery.
