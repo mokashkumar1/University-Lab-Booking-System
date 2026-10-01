@@ -1,1 +1,1 @@
-{"framework":"nextjs","regions":["bom1"]}
+{"framework":"nextjs","regions":["bom1"],"env":{"DEMO_MODE":"true"}}
