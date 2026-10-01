@@ -1,11 +1,11 @@
 {
-  "verified": "2026-10-01T08:21:25.169Z",
-  "scope": "Real local Next.js UI, real hosted Supabase Auth + database, persisted demonstration test booking",
+  "verified": "2026-10-01T08:27:58.787Z",
+  "scope": "Real https://university-lab-booking-system.vercel.app UI, hosted Supabase Auth + database, persisted demonstration test booking",
   "checks": [
     {
       "name": "Student submitted real lab+equipment request",
       "passed": true,
-      "bookingId": "5877265b-b4af-4049-856a-00637d4146f6"
+      "bookingId": "654cf9f1-6c4e-4ea9-bccd-99485db2047e"
     },
     {
       "name": "Conflicting request presents verified scored alternatives",

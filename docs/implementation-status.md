@@ -17,3 +17,5 @@ Production environment variables are encrypted in the linked Vercel project. Loc
 
 Production: https://university-lab-booking-system.vercel.app
 34 production browser checks pass across the four authenticated roles at mobile and desktop widths. Results and screenshots are in docs/evidence/production.
+
+The full request → conflict suggestions → staff approval → equipment issue → equipment return lifecycle also passed on the public production URL, with persisted notifications and audit history.
